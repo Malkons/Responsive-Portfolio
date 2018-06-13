@@ -1,0 +1,481 @@
+body {
+    width: 100%;
+    height: 65em;
+    margin: 0 auto;
+    background-image: url("concrete-texture.png")   
+}
+
+header {
+    background: #ffffff;
+    font-size: 40px;
+    padding: 43px;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* Marc Alkons Home Button */
+#index {
+    position: absolute;
+    background: #4aaaa5;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    text-decoration: none;
+    top: 0px;
+    left: 285px;   
+}
+
+nav {
+    position: relative;
+    float: right;
+    margin: 0px;
+    background-color: #ffffff;
+    Font-size: 20px;
+    top: -10px;
+    right: 250px;  
+}
+
+.navbtn {
+    text-decoration: none;
+    border-right: 3px; 
+}
+
+/* Contact, About Me, Portfolio*/
+.am {
+    color: #4aaaa5;
+}
+
+section {
+    width: 920px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px solid #eee;
+}
+
+/* Section for the portfolio to make the section longer to accomodate the pictures */
+.portfolio {
+    width: 920px;
+    height: 775px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: 1px solid #eee;
+}
+
+/* Contact, About Me, Portfolio*/
+.am {
+    color: #4aaaa5;
+}
+
+#img {
+    float: left;
+    margin-right: 10px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+#hr {
+    background-color: lightgray;
+    height: 2px;
+}
+
+/* Footer section*/
+#hr1 {
+    background-color: #4aaaa5;
+    height: 10px;
+    border: none;
+    margin: 0px auto;    
+}
+
+footer {
+    position: fixed;
+    background-color: #666666;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    bottom: 0px;
+    width: 100%;   
+}
+
+/* Copywrite */
+#copy {
+    margin: 0 auto;
+    color: #eee;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+}
+
+textarea {
+    width: 99%;
+    height: 10em;    
+}
+
+#name, 
+#mail {
+    width: 99%;    
+}
+
+/* Submit Button*/
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+/* Portfolio Link Box Lables*/
+.box {
+    position: absolute;
+    background-color: #4aaaa5;
+    color: white;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    margin: 0;
+    text-decoration: none;
+    padding-top: 20px; 
+}
+
+.box-1 {
+    top: 395px;
+    left: 305px;
+}
+
+.box-2 {
+    top: 625px;
+    left: 305px;
+}
+
+.box-3 {
+    top: 850px;
+    left: 305px;
+}
+
+.box-4 {
+    top: 395px;
+    left: 765px;
+}    
+
+.box-5 {
+    top: 620px;
+    left: 765px;
+}
+
+.pic {
+    margin: 5px;
+    margin-top: 20px;   
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/*Media Queries*/
+@media only screen and (max-width: 980px) {
+    body {
+        width: 100%;
+    }
+    #index {
+        position: absolute;
+        background: #4aaaa5;
+        color: #ffffff;
+        margin: 0 auto;
+        padding: 20px;
+        text-decoration: none;
+        top: 0px;
+        left: 50px;   
+    }   
+
+    nav {
+        position: relative;
+        float: right;
+        margin: 0px;
+        background-color: #ffffff;
+        Font-size: 20px;
+        top: -10px;
+        right: 10px;  
+    }
+
+    section {
+        float: left;
+        width: 600px;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .portfolio {
+        width: 600px;
+        height: 775px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .box {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        width: 250px;
+        height: 35px;
+        text-align: center;
+        margin: 0;
+        text-decoration: none;
+        padding-top: 20px; 
+    }
+    .box-1 {
+        top: 390px;
+        left: 76px;
+    }
+    
+    .box-2 {
+        top: 620px;
+        left: 76px;
+    }
+    
+    .box-3 {
+        top: 850px;
+        left: 76px;
+    }
+    
+    .box-4 {
+        top: 390px;
+        left: 376px;
+    }    
+    
+    .box-5 {
+        top: 620px;
+        left: 376px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+    #index {
+        position: absolute;
+        background: #4aaaa5;
+        color: #ffffff;
+        margin: 0 auto;
+        padding: 20px;
+        text-decoration: none;
+        top: 0px;
+        left: 50px;   
+    }   
+
+    nav {
+        position: relative;
+        float: right;
+        margin: 0px;
+        background-color: #ffffff;
+        Font-size: 20px;
+        top: -10px;
+        right: 10px;  
+    }
+
+    section {
+        float: left;
+        width: 550px;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left: 50px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .portfolio {
+        width: 550px;
+        height: 775px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-left:50px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .box {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        width: 250px;
+        height: 35px;
+        text-align: center;
+        margin: 0;
+        text-decoration: none;
+        padding-top: 20px; 
+    }
+    .box-1 {
+        top: 390px;
+        left: 76px;
+    }
+    
+    .box-2 {
+        top: 620px;
+        left: 76px;
+    }
+    
+    .box-3 {
+        top: 850px;
+        left: 76px;
+    }
+    
+    .box-4 {
+        top: 390px;
+        left: 351px;
+    }    
+    
+    .box-5 {
+        top: 620px;
+        left: 351px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        border: none;
+        width: 100%;
+       
+    }
+    #index {
+        position: absolute;
+        background: #4aaaa5;
+        color: #ffffff;
+        margin: 0 auto;
+        padding: 20px;
+        text-decoration: none;
+        text-align: center;
+        top: 0px;
+        left: 0px;   
+        width: 100%;
+    }   
+
+    nav {
+        position: absolute;
+        width: 100%;
+        margin: 0px;
+        background-color: #ffffff;
+        padding: 15px;
+        Font-size: 20px;
+        top: 86px;
+        left: 0px;
+        text-align: center;  
+    }
+
+    #img {
+        height: 350px;
+        width: 350px;
+        margin: 30px;
+        margin-top: 20px;
+    }
+
+    section {
+        float: left;
+        width: 425px;
+        height: 750px;
+        margin: 0 auto;
+        margin-top: 75px;
+        margin-left: 75px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .portfolio {
+        float: left;
+        width: 66%;
+        height: 100em;
+        margin: 0 auto;
+        margin-top: 75px;
+        margin-left:75px;
+        padding: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        border: 1px solid #eee;
+    }
+
+    .box {
+        position: absolute;
+        background-color: #4aaaa5;
+        color: white;
+        font-family:'Georgia', Times, Times New Roman, serif;
+        width: 250px;
+        height: 35px;
+        text-align: center;
+        margin: 0;
+        text-decoration: none;
+        padding-top: 20px; 
+    }
+    .box-1 {
+        top: 390px;
+        left: 26px;
+    }
+    
+    .box-2 {
+        top: 620px;
+        left: 26px;
+    }
+    
+    .box-3 {
+        top: 850px;
+        left: 26px;
+    }
+    
+    .box-4 {
+        top: 390px;
+        left: 301px;
+    }    
+    
+    .box-5 {
+        top: 620px;
+        left: 301px;
+    }
+}
