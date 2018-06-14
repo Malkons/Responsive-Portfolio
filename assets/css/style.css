@@ -60,9 +60,10 @@ section {
 /* Section for the portfolio to make the section longer to accomodate the pictures */
 .portfolio {
     width: 920px;
-    height: 775px;
+    height: 1000px;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px;
     background-color: #ffffff;
     border: 1px solid #dddddd;
@@ -141,7 +142,7 @@ input[type=submit] {
 
 /* Portfolio Link Box Lables*/
 .box {
-    position: absolute;
+    position: relative;
     background-color: #4aaaa5;
     color: white;
     font-family:'Georgia', Times, Times New Roman, serif;
@@ -150,32 +151,9 @@ input[type=submit] {
     text-align: center;
     margin: 0;
     text-decoration: none;
-    padding-top: 20px; 
-}
-
-.box-1 {
-    top: 395px;
-    left: 305px;
-}
-
-.box-2 {
-    top: 625px;
-    left: 305px;
-}
-
-.box-3 {
-    top: 850px;
-    left: 305px;
-}
-
-.box-4 {
-    top: 395px;
-    left: 765px;
-}    
-
-.box-5 {
-    top: 620px;
-    left: 765px;
+    padding-top: 20px;
+    top: 200px;
+    left: 5px; 
 }
 
 .pic {
@@ -233,7 +211,7 @@ input[type=submit] {
 
     .portfolio {
         width: 600px;
-        height: 775px;
+        height: 1000px;
         margin: 0 auto;
         margin-top: 50px;
         margin-left: 50px;
@@ -245,7 +223,7 @@ input[type=submit] {
     }
 
     .box {
-        position: absolute;
+        position: relative;
         background-color: #4aaaa5;
         color: white;
         font-family:'Georgia', Times, Times New Roman, serif;
@@ -255,30 +233,8 @@ input[type=submit] {
         margin: 0;
         text-decoration: none;
         padding-top: 20px; 
-    }
-    .box-1 {
-        top: 390px;
-        left: 76px;
-    }
-    
-    .box-2 {
-        top: 620px;
-        left: 76px;
-    }
-    
-    .box-3 {
-        top: 850px;
-        left: 76px;
-    }
-    
-    .box-4 {
-        top: 390px;
-        left: 376px;
-    }    
-    
-    .box-5 {
-        top: 620px;
-        left: 376px;
+        top: 200px;
+        left:5px;
     }
 }
 
@@ -323,7 +279,7 @@ input[type=submit] {
 
     .portfolio {
         width: 550px;
-        height: 775px;
+        height: 1000px;
         margin: 0 auto;
         margin-top: 50px;
         margin-left:50px;
@@ -335,7 +291,7 @@ input[type=submit] {
     }
 
     .box {
-        position: absolute;
+        position: relative;
         background-color: #4aaaa5;
         color: white;
         font-family:'Georgia', Times, Times New Roman, serif;
@@ -344,31 +300,9 @@ input[type=submit] {
         text-align: center;
         margin: 0;
         text-decoration: none;
-        padding-top: 20px; 
-    }
-    .box-1 {
-        top: 390px;
-        left: 76px;
-    }
-    
-    .box-2 {
-        top: 620px;
-        left: 76px;
-    }
-    
-    .box-3 {
-        top: 850px;
-        left: 76px;
-    }
-    
-    .box-4 {
-        top: 390px;
-        left: 351px;
-    }    
-    
-    .box-5 {
-        top: 620px;
-        left: 351px;
+        padding-top: 20px;
+        top: 200px;
+        left: 5px; 
     }
 }
 
@@ -443,7 +377,7 @@ input[type=submit] {
     }
 
     .box {
-        position: absolute;
+        position: relative;
         background-color: #4aaaa5;
         color: white;
         font-family:'Georgia', Times, Times New Roman, serif;
@@ -452,30 +386,20 @@ input[type=submit] {
         text-align: center;
         margin: 0;
         text-decoration: none;
-        padding-top: 20px; 
+        padding-top: 20px;
+        top: 200px;
+        left: 5px;
     }
-    .box-1 {
-        top: 390px;
-        left: 26px;
-    }
-    
-    .box-2 {
-        top: 620px;
-        left: 26px;
-    }
-    
-    .box-3 {
-        top: 850px;
-        left: 26px;
+
+    .linka {
+        margin: 50px 50px 50px 50px;
+      }
+
+    linkb {
+        margin: 50px 50px 50px 50px;
     }
     
-    .box-4 {
-        top: 390px;
-        left: 301px;
-    }    
+   
     
-    .box-5 {
-        top: 620px;
-        left: 301px;
-    }
+
 }
